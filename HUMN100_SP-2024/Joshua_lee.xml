@@ -51,16 +51,15 @@
          <div>
             <listPerson>
                <person>
-                  <persName>Jackson,Green</persName> <birth><date>03/09/2005</date> <placeName>Washington DC</placeName> </birth><occupation>Student/Economics/Political Science/</occupation><affiliation>Crew</affiliation></person></listPerson><p>I have 2 dogs and a cat</p>
+                  <persName>Jackson,Green</persName> <birth><date>03/09/2005</date> <placeName>Washington DC</placeName> </birth><occupation>Student/Undecided/Political Science/</occupation><affiliation>Crew</affiliation></person></listPerson><p>I have 2 dogs and a cat</p>
          </div>
          <div>
             <listPerson>
                <person>
-                  <persName>Abby,Hausner </persName><birth><date>10/08/2004</date> <placeName>Ridgewood, NJ </placeName></birth><occupation>Student/Undecided/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
+                  <persName>Abby,Hausner </persName><birth><date>10/08/2004</date> <placeName>Ridgewood, NJ </placeName></birth><occupation>Student/Economics/Political Science/Club basketball</occupation> <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
-            <p>FUN FACT</p>
+            <p>I'm going to Scotland in May</p>
          </div>
          <div>
             <listPerson>
