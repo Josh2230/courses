@@ -46,20 +46,12 @@
          <div>
             <listPerson>
                <person>
-                  <persName>Junbo,Feng</persName> <birth><date>07/12/2005</date> <placeName>Guangdong, China</placeName> </birth><occupation>Student/Computer Science Engineering/Cycling</occupation> <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-            <p>FUN FACT</p>
+                  <persName>Junbo,Feng</persName> <birth><date>07/12/2005</date> <placeName>Guangdong, China</placeName> </birth><occupation>Student/Computer Science Engineering/Cycling</occupation> <affiliation>E-sports, frisbee</affiliation></person></listPerson><p>I am a music producer</p>
          </div>
          <div>
             <listPerson>
                <person>
-                  <persName>NAME5</persName>
-                  <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
+                  <persName>Jackson,Green</persName> <birth><date>03/09/2005</date> <placeName/> </birth><occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
                   <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
