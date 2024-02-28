@@ -28,7 +28,7 @@
          <div>
             <listPerson>
                <person>
-                  <persName>Miguel, Camacho </persName><birth><date>12/13/2002</date> <placeName>Bogota, Colombia</placeName> Student</birth><occupation>/Creative Writing/Comparative &amp; Digital Humanities/WHAT OCCUP</occupation> <affiliation>GROUP I'M A PART OF </affiliation></person></listPerson><p>I was a competitive fencer</p>
+                  <persName>Miguel, Camacho </persName><birth><date>12/13/2002</date> <placeName>Bogota, Colombia</placeName> Student</birth><occupation>/Creative Writing/Comparative &amp; Digital Humanities/<affiliation>CW Club, Film Club, LACOS/</affiliation></occupation> <affiliation><occupation>Cooking Club</occupation></affiliation></person></listPerson><p>I was a competitive fencer</p>
          </div>
          <div>
             <listPerson>
@@ -46,10 +46,7 @@
          <div>
             <listPerson>
                <person>
-                  <persName>NAME4</persName>
-                  <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
+                  <persName>Junbo,Feng</persName> <birth><date>07/12/2005</date> <placeName>PLACE</placeName>
                   </birth>
                   <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
                   <affiliation>GROUP I'M A PART OF</affiliation>
