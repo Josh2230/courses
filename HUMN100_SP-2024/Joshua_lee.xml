@@ -28,13 +28,8 @@
          <div>
             <listPerson>
                <person>
-                  <persName>Miguel, Camacho </persName><birth><date>12/13/2002</date> <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-            <p>FUN FACT</p>
+                  <persName>Miguel, Camacho </persName><birth><date>12/13/2002</date> <placeName>Bogota, Colombia</placeName> Student</birth><occupation>/Creative Writing/Comparative &amp; Digital Humanities/WHAT OCCUPIES MY TIME</occupation>
+                  <affiliation/></person></listPerson><p>FUN FACT</p>
          </div>
          <div>
             <listPerson>
