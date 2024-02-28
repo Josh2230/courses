@@ -64,17 +64,9 @@
          <div>
             <listPerson>
                <person>
-                  <persName>Dylan,Lange</persName> <birth><date>06/01/2004</date> <placeName>Indio, California</placeName> </birth><occupation>Student/Computer Science/Volleyball, ACM, Tea Club</occupation> <affiliation>G Sigma Alpha Epsilon</affiliation></person></listPerson><p>FUN FACT</p>
+                  <persName>Dylan,Lange</persName> <birth><date>06/01/2004</date> <placeName>Indio, California</placeName> </birth><occupation>Student/Computer Science/Volleyball, ACM, Tea Club</occupation> <affiliation>Sigma Alpha Epsilon</affiliation></person></listPerson><p>I have 15 cats</p>
          </div>
-         <div>
-            <listPerson>
-               <person>
-                  <persName>NAME8</persName>
-                  <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
+         <div><listPerson><person><persName>Joshua, Lee</persName> <birth><date>02/20/2004</date> <placeName>Englewood Clif</placeName> </birth><occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
                   <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
