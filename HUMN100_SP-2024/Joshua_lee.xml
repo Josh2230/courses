@@ -46,10 +46,7 @@
          <div>
             <listPerson>
                <person>
-                  <persName>Junbo,Feng</persName> <birth><date>07/12/2005</date> <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
+                  <persName>Junbo,Feng</persName> <birth><date>07/12/2005</date> <placeName>Guangdong, China</placeName> </birth><occupation>Student/Computer Science Engineering/Cycling</occupation> <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
             <p>FUN FACT</p>
