@@ -66,21 +66,15 @@
                <person>
                   <persName>Dylan,Lange</persName> <birth><date>06/01/2004</date> <placeName>Indio, California</placeName> </birth><occupation>Student/Computer Science/Volleyball, ACM, Tea Club</occupation> <affiliation>Sigma Alpha Epsilon</affiliation></person></listPerson><p>I have 15 cats</p>
          </div>
-         <div><listPerson><person><persName>Joshua, Lee</persName> <birth><date>02/20/2004</date> <placeName>Englewood Clif</placeName> </birth><occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
+         <div><listPerson><person><persName>Joshua, Lee</persName> <birth><date>02/20/2004</date> <placeName>Englewood Cliffs, NJ</placeName> </birth><occupation>Student/Computer Science/Korean Cultural Association</occupation> <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
-            <p>FUN FACT</p>
+            <p>I used to be in marching band</p>
          </div>
          <div>
             <listPerson>
                <person>
-                  <persName>NAME9</persName>
-                  <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
+                  <persName>Leo,McMenimen</persName> <birth><date>11/25/2003 </date><placeName>Sayerville, New Jersey</placeName> </birth><occupation>Student/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
                   <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
