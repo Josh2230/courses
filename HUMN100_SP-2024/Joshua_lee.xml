@@ -29,17 +29,15 @@
             <listPerson>
                <person>
                   <persName>Miguel, Camacho </persName><birth><date>12/13/2002</date> <placeName>Bogota, Colombia</placeName> Student</birth><occupation>/Creative Writing/Comparative &amp; Digital Humanities/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation/></person></listPerson><p>FUN FACT</p>
+                  <affiliation>GROUP I'M A PART OF CW Club, Film Club, LACOS, Cooking Club</affiliation>
+               </person>
+            </listPerson>
+            <p>I was a competitive fencer</p>
          </div>
          <div>
             <listPerson>
                <person>
-                  <persName>NAME4</persName>
-                  <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
+                  <persName>Nathan,Casarsa</persName> <birth><date>10/31/2003</date> <placeName>Buffalo, NY</placeName> Student</birth><occupation>/WHAT IS MY MAJORWHAT OCCUPIES MY TIME</occupation>
                   <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
