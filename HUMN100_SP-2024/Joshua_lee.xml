@@ -90,8 +90,7 @@
             </listPerson>
             <p>FUN FACT</p>
          </div>
-         <div><listPerson><person><persName>Farhaj Shahid</persName> <birth><date>DATE</date>
-                     <placeName>PLACE</placeName>
+         <div><listPerson><person><persName>Farhaj Shahid</persName> <birth><date>2026</date> <placeName>PLACE</placeName>
                   </birth>
                   <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
                   <affiliation>GROUP I'M A PART OF</affiliation>
@@ -99,15 +98,7 @@
             </listPerson>
             <p>FUN FACT</p>
          </div>
-         <div>
-            <listPerson>
-               <person>
-                  <persName>NAME12</persName>
-                  <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
+         <div><listPerson><person><persName>Erid Wiehn</persName> <birth><date>2/26/05</date> <placeName>Newton, MA</placeName> </birth><occupation>Student/Economics/WHAT OCCUPIES MY TIME</occupation>
                   <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
