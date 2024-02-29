@@ -33,7 +33,7 @@
          <div>
             <listPerson>
                <person>
-                  <persName>Nathan,Casarsa</persName> <birth><date>10/31/2003</date> <placeName>Buffalo, NY</placeName> Student</birth><occupation>/Computeer Science &amp; Engineering/ACM, club baseball</occupation> <affiliation>GROUP I'M A PART OF</affiliation>
+                  <persName>Nathan,Casarsa</persName> <birth><date>10/31/2003</date> <placeName>Buffalo, NY</placeName> Student</birth><occupation>/Computer Science &amp; Engineering/ACM, club baseball</occupation> <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
             <listRelation>
@@ -82,8 +82,7 @@
          <div>
             <listPerson>
                <person>
-                  <persName>Alexander,</persName> <birth><date>DATE</date>
-                     <placeName>PLACE</placeName>
+                  <persName>Alexander, Peters</persName> <birth><date>2027</date> <placeName>PLACE</placeName>
                   </birth>
                   <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
                   <affiliation>GROUP I'M A PART OF</affiliation>
@@ -91,12 +90,7 @@
             </listPerson>
             <p>FUN FACT</p>
          </div>
-         <div>
-            <listPerson>
-               <person>
-                  <persName>NAME11</persName>
-                  <birth>
-                     <date>DATE</date>
+         <div><listPerson><person><persName>Farhaj Shahid</persName> <birth><date>DATE</date>
                      <placeName>PLACE</placeName>
                   </birth>
                   <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
