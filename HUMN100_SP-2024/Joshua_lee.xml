@@ -98,21 +98,12 @@
             </listPerson>
             <p>FUN FACT</p>
          </div>
-         <div><listPerson><person><persName>Erid Wiehn</persName> <birth><date>2/26/05</date> <placeName>Newton, MA</placeName> </birth><occupation>Student/Economics/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
+         <div><listPerson><person><persName>Erid Wiehn</persName> <birth><date>2/26/05</date> <placeName>Newton, MA</placeName> </birth><occupation>Student/Economics/Marketing/Core Marketing, ACS</occupation> <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
-            <p>FUN FACT</p>
+            <p>I'm left handed</p>
          </div>
-         <div>
-            <listPerson>
-               <person>
-                  <persName>NAME13</persName>
-                  <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
+         <div><listPerson><person><persName>Peyton Wynkoop</persName> <birth><date>08/21/2005</date> <placeName>Abu Dhabi, UAE</placeName> </birth><occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
                   <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
