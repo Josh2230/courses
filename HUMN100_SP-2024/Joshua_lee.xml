@@ -103,21 +103,13 @@
             </listPerson>
             <p>I'm left handed</p>
          </div>
-         <div><listPerson><person><persName>Peyton Wynkoop</persName> <birth><date>08/21/2005</date> <placeName>Abu Dhabi, UAE</placeName> </birth><occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-            <p>FUN FACT</p>
+         <div><listPerson><person><persName>Peyton Wynkoop</persName> <birth><date>08/21/2005</date> <placeName>Abu Dhabi, UAE</placeName> </birth><occupation>Student/Undeclared/WHAT OCCUPIES MY TIME</occupation>
+                  <affiliation>DSAC</affiliation></person></listPerson><p>FUN FACT</p>
          </div>
          <div>
             <listPerson>
                <person>
-                  <persName>NAME14</persName>
-                  <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
+                  <persName>Claire Cahoon</persName> <birth><date>3/16/2024</date> <placeName>Charlottesville, VA</placeName> </birth><occupation>WHAT/English/WHAT OCCUPIES MY TIME</occupation>
                   <affiliation>GROUP I'M A PART OF</affiliation>
                </person>
             </listPerson>
