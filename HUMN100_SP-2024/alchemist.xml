@@ -90,6 +90,479 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?rs_annotation_20240304094303205",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-04T14:43:03.205Z",
+	"dcterms:modified": "2024-03-04T14:43:03.205Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Josh2230",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Joshua Lee"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?rs_annotation_20240304094303205#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?rs_annotation_20240304094303205#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[19]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Religion",
+		"@id": "http://www.wikidata.org/entity/Q428",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?rs_annotation_20240304094419572",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-04T14:44:19.572Z",
+	"dcterms:modified": "2024-03-04T14:44:19.572Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Josh2230",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Joshua Lee"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?rs_annotation_20240304094419572#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?rs_annotation_20240304094419572#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[20]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Religion",
+		"@id": "http://www.wikidata.org/entity/Q47740",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240304094552073",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-04T14:45:52.073Z",
+	"dcterms:modified": "2024-03-04T14:45:52.073Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Josh2230",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Joshua Lee"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240304094552073#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240304094552073#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[22]/eventName/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q5806",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240304094606804",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-04T14:46:06.804Z",
+	"dcterms:modified": "2024-03-04T14:46:06.804Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Josh2230",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Joshua Lee"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240304094606804#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240304094606804#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[23]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q5806",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240304094643977",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-04T14:46:43.977Z",
+	"dcterms:modified": "2024-03-04T14:46:43.977Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Josh2230",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Joshua Lee"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240304094643977#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240304094643977#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[23]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q5806",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?place_annotation_20240304094657281",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-04T14:46:57.281Z",
+	"dcterms:modified": "2024-03-04T14:46:57.281Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Josh2230",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Joshua Lee"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?place_annotation_20240304094657281#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?place_annotation_20240304094657281#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[23]/placeName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q5806",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -122,60 +595,42 @@
                had no regrets about having hired the <persName>boy</persName>. The <persName type="fictional">boy</persName> was being paid more money than he
                deserved, because the <persName>merchant</persName>, thinking that sales wouldn’t amount to much, had
                offered the <persName type="fictional">boy</persName> a high commission rate. <span cert="high" evaluate="all" type="Theme" xml:space="default">He had assumed he would soon return to his sheep.</span></p>
-            <p><span cert="high" evaluate="all" type="Theme" xml:space="default">“Why did you want to get to the Pyramids?”</span> he asked, to get away from the business of
+            <p><span cert="high" evaluate="all" type="Theme" xml:space="default"><eventName cert="high" evidence="internal" full="yes" instant="unknown" type="Event" xml:space="default">“Why did you want to get to the Pyramids?”</eventName></span> he asked, to get away from the business of
                the display.</p>
             <p>“Because I’ve always heard about them,” the <persName>boy</persName> answered, saying nothing about his
                dream. The treasure was now nothing but a painful memory, and he tried to avoid
                thinking about it.</p>
-            <p>“I don’t know anyone around here who would want to cross the desert just to see the
-               Pyramids,” said the merchant. “They’re just a pile of stones. You could build one in
+            <p>“<eventName cert="high" evidence="internal" full="yes" instant="unknown" type="Event" xml:space="default">I don’t know anyone around here who would want to cross the desert just to see the Pyramids</eventName>,” said the <persName type="fictional">merchant</persName>. “They’re just a pile of stones. You could build one in
                your backyard.”</p>
-            <p>“You’ve never had dreams of travel,” said the boy, turning to wait on a customer who
+            <p>“You’ve never had dreams of travel,” said the <persName>boy</persName>, turning to wait on a customer who
                had entered the shop.</p>
-            <p>Two days later, the merchant spoke to the boy about the display.</p>
-            <p>“I don’t much like change,” he said. “You and I aren’t like Hassan, that rich
-               merchant. If he makes a buying mistake, it doesn’t affect him much. But we two have
-               to live with our mistakes.”</p>
-            <p>That’s true enough, the boy thought, ruefully. “Why did you think we should have the
+            <p>Two days later, the <persName type="fictional">merchant</persName> spoke to the <persName>boy</persName> about the display.</p>
+            <p>“I don’t much like change,” he said. “You and I aren’t like <persName type="fictional">Hassan</persName>, that rich
+               merchant. If he makes a buying mistake, it doesn’t affect him much. <span cert="high" evaluate="all" type="Theme" xml:space="default">But we two have to live with our mistakes.”</span></p>
+            <p>That’s true enough, the <persName>boy</persName> thought, ruefully. “Why did you think we should have the
                display?”</p>
             <p>“I want to get back to my sheep faster. We have to take advantage when luck is on our
-               side, and do as much to help it as it’s doing to help us. It’s called the principle
-               of favorability. Or beginner’s luck.”</p>
-            <p>The merchant was silent for a few moments. Then he said, “The Prophet gave us the
-               Koran, and left us just five obligations to satisfy during our lives. The most
-               important is to believe only in the one true God. The others are to pray five times a
-               day, fast during Ramadan, and be charitable to the poor.”</p>
+               side, and do as much to help it as it’s doing to help us. <span cert="high" evaluate="all" type="Theme" xml:space="default">It’s called the principle of favorability. Or beginner’s luck.”</span></p>
+            <p>The <persName type="fictional">merchant</persName> was silent for a few moments. Then he said, “The Prophet gave us the
+               <rs key="Qur’an" ref="http://www.wikidata.org/entity/Q428" cert="high" type="http://sparql.cwrc.ca/ontology/cwrc#Religion">Koran</rs>, and left us just five obligations to satisfy during our lives. <eventName cert="high" evidence="internal" full="yes" instant="unknown" type="Religion" xml:space="default">The most important is to believe only in the one true God. The others are to pray five times a day, fast during Ramadan, and be charitable to the poor.”</eventName></p>
             <p>He stopped there. His eyes filled with tears as he spoke of the Prophet. He was a
                devout man, and, even with all his impatience, he wanted to live his life in
-               accordance with Muslim law.</p>
-            <p>“What’s the fifth obligation?” the boy asked.</p>
-            <p>“Two days ago, you said that I had never dreamed of travel,” the merchant answered.
-               “The fifth obligation of every Muslim is a pilgrimage. We are obliged, at least once
-               in our lives, to visit the holy city of Mecca.</p>
-            <p>“Mecca is a lot farther away than the Pyramids. When I was young, all I wanted to do
+               accordance with <rs key="Muslim" ref="http://www.wikidata.org/entity/Q47740" type="http://sparql.cwrc.ca/ontology/cwrc#Religion">Muslim</rs> law.</p>
+            <p>“What’s the fifth obligation?” the <persName>boy</persName> asked.</p>
+            <p>“Two days ago, you said that I had never dreamed of travel,” the <persName type="fictional">merchant</persName> answered.
+               “<eventName cert="high" evidence="internal" full="yes" instant="unknown" type="Religion" xml:space="default">The fifth obligation of every Muslim is a pilgrimage. We are obliged, at least once in our lives, to visit the holy city of <placeName key="Mecca" ref="http://www.wikidata.org/entity/Q5806" cert="high">Mecca<precision match="@ref" precision="high"/></placeName></eventName>.</p>
+            <p>“<placeName key="Mecca" ref="http://www.wikidata.org/entity/Q5806">Mecca</placeName> is a lot farther away than the Pyramids. When I was young, all I wanted to do
                was put together enough money to start this shop. I thought that someday I’d be rich,
-               and could go to Mecca. I began to make some money, but I could never bring myself to
+               and could go to <placeName key="Mecca" ref="http://www.wikidata.org/entity/Q5806" cert="high">Mecca<precision match="@ref" precision="high"/></placeName>. I began to make some money, but I could never bring myself to
                leave someone in charge of the shop; the crystals are delicate things. At the same
-               time, people were passing my shop all the time, heading for Mecca. Some of them were
+               time, people were passing my shop all the time, heading for <placeName key="Mecca" ref="http://www.wikidata.org/entity/Q5806">Mecca</placeName>. Some of them were
                rich pilgrims, traveling in caravans with servants and camels, but most of the people
                making the pilgrimage were poorer than I.</p>
             <p>“All who went there were happy at having done so. They placed the symbols of the
-               pilgrimage on the doors of their houses. One of them, a cobbler who made his living
-               mending boots, said that he had traveled for almost a year through the desert, but
-               that he got more tired when he had to walk through the streets of Tangier buying his
-               leather.”</p>
-            <p>“Well, why don’t you go to Mecca now?” asked the boy.</p>
-            <p>“Because it’s the thought of Mecca that keeps me alive. That’s what helps me face
-               these days that are all the same, these mute crystals on the shelves, and lunch and
-               dinner at that same horrible café. I’m afraid that if my dream is realized, I’ll have
-               no reason to go on living.</p>
-            <p>“You dream about your sheep and the Pyramids, but you’re different from me, because
-               you want to realize your dreams. I just want to dream about Mecca. I’ve already
-               imagined a thousand times crossing the desert, arriving at the Plaza of the Sacred
-               Stone, the seven times I walk around it before allowing myself to touch it. I’ve
-               already imagined the people who would be at my side, and those in front of me, and
-               the conversations and prayers we would share. But I’m afraid that it would all be a
-               disappointment, so I prefer just to dream about it.”</p>
+               pilgrimage on the doors of their houses. <span cert="high" evaluate="all" type="Theme" xml:space="default">One of them, a cobbler who made his living mending boots, said that he had traveled for almost a year through the desert, but that he got more tired when he had to walk through the streets of Tangier buying his leather.”</span></p>
+            <p>“Well, why don’t you go to Mecca now?” asked the <persName>boy</persName>.</p>
+            <p><span cert="high" evaluate="all" type="Theme" xml:space="default">“Because it’s the thought of Mecca that keeps me alive. That’s what helps me face these days that are all the same, these mute crystals on the shelves, and lunch and dinner at that same horrible café. I’m afraid that if my dream is realized, I’ll have no reason to go on living.</span></p>
+            <p><span cert="high" evaluate="all" type="Theme" xml:space="default">“You dream about your sheep and the Pyramids, but you’re different from me, because you want to realize your dreams. I just want to dream about Mecca. I’ve already imagined a thousand times crossing the desert, arriving at the Plaza of the Sacred Stone, the seven times I walk around it before allowing myself to touch it. I’ve already imagined the people who would be at my side, and those in front of me, and the conversations and prayers we would share. But I’m afraid that it would all be a disappointment, so I prefer just to dream about it.”</span></p>
             <p>That day, the merchant gave the boy permission to build the display. Not everyone can
                see his dreams come true in the same way.</p>
          </div>
