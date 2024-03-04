@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Alchemist (section)</title>
+            <author>Paulo Coelho</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Encoded by Joshua Lee</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?note_annotation_20240304092440295",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-04T14:24:40.295Z",
+	"dcterms:modified": "2024-03-04T14:24:40.295Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Josh2230",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Joshua Lee"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "undefined?note_annotation_20240304092440295#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?note_annotation_20240304092440295#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "This section of text is about the boy's time working for the crystal merchant and his journey through this time. "
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
+   <text>
+      <body>
+         <div>
+            <p><note type="scholarNote">This section of text is about the boy's time working for the crystal merchant and his journey through this time. </note>THE <persName type="fictional">BOY</persName> HAD BEEN WORKING FOR THE <persName>CRYSTAL MERCHANT</persName> for almost a month, and he could
+               see that it wasn’t exactly the kind of job that would make him happy. The merchant
+               spent the entire day mumbling behind the counter, telling the boy to be careful with
+               the pieces and not to break anything.</p>
+            <p>But he stayed with the job because the <persName type="fictional">merchant</persName>, although he was an old grouch,
+               treated him fairly; the <persName>boy</persName> received a good commission for each piece he sold, and
+               had already been able to put some money aside. That morning he had done some
+               calculating: <span cert="high" evaluate="all" type="Theme" xml:space="default">if he continued to work every day as he had been, he would need a whole year to be able to buy some sheep.</span></p>
+            <p>“I’d like to build a display case for the crystal,” the <persName type="fictional">boy</persName> said to the <persName>merchant</persName>. “We
+               could place it outside, and attract those people who pass at the bottom of the
+               hill.”</p>
+            <p>“I’ve never had one before,” the <persName type="fictional">merchant</persName> answered. “People will pass by and bump
+               into it, and pieces will be broken.”</p>
+            <p>“Well, when I took my sheep through the fields some of them might have died if we had
+               come upon a snake. But that’s the way life is with sheep and with shepherds.”</p>
+            <p>The <persName>merchant</persName> turned to a customer who wanted three crystal glasses. He was selling
+               better than ever...as if time had turned back to the old days when the street had
+               been one of Tangier’s major attractions.</p>
+            <p>“Business has really improved,” he said to the <persName type="fictional">boy</persName>, after the customer had left. “I’m
+               doing much better, <span cert="high" evaluate="all" type="Theme" xml:space="default">and soon you’ll be able to return to your sheep. Why ask more out of life?”</span></p>
+            <p><span cert="high" evaluate="all" type="Theme" xml:space="default">“Because we have to respond to omens,”</span> the <persName type="fictional">boy</persName> said, almost without meaning to; then
+               he regretted what he had said, because the <persName>merchant</persName> had never met the <persName type="fictional">king</persName>.</p>
+            <p>“<span cert="high" evaluate="all" type="Theme" xml:space="default">It’s called the principle of favorability, beginner’s luck. Because life wants you to achieve your Personal Legend,</span>” the old <persName>king</persName> had said.</p>
+            <p>But the <persName type="fictional">merchant</persName> understood what the <persName>boy</persName> had said. The <persName type="fictional">boy’s</persName> very presence in the
+               shop was an omen, and, as time passed and money was pouring into the cash drawer, he
+               had no regrets about having hired the <persName>boy</persName>. The <persName type="fictional">boy</persName> was being paid more money than he
+               deserved, because the <persName>merchant</persName>, thinking that sales wouldn’t amount to much, had
+               offered the <persName type="fictional">boy</persName> a high commission rate. <span cert="high" evaluate="all" type="Theme" xml:space="default">He had assumed he would soon return to his sheep.</span></p>
+            <p><span cert="high" evaluate="all" type="Theme" xml:space="default">“Why did you want to get to the Pyramids?”</span> he asked, to get away from the business of
+               the display.</p>
+            <p>“Because I’ve always heard about them,” the <persName>boy</persName> answered, saying nothing about his
+               dream. The treasure was now nothing but a painful memory, and he tried to avoid
+               thinking about it.</p>
+            <p>“I don’t know anyone around here who would want to cross the desert just to see the
+               Pyramids,” said the merchant. “They’re just a pile of stones. You could build one in
+               your backyard.”</p>
+            <p>“You’ve never had dreams of travel,” said the boy, turning to wait on a customer who
+               had entered the shop.</p>
+            <p>Two days later, the merchant spoke to the boy about the display.</p>
+            <p>“I don’t much like change,” he said. “You and I aren’t like Hassan, that rich
+               merchant. If he makes a buying mistake, it doesn’t affect him much. But we two have
+               to live with our mistakes.”</p>
+            <p>That’s true enough, the boy thought, ruefully. “Why did you think we should have the
+               display?”</p>
+            <p>“I want to get back to my sheep faster. We have to take advantage when luck is on our
+               side, and do as much to help it as it’s doing to help us. It’s called the principle
+               of favorability. Or beginner’s luck.”</p>
+            <p>The merchant was silent for a few moments. Then he said, “The Prophet gave us the
+               Koran, and left us just five obligations to satisfy during our lives. The most
+               important is to believe only in the one true God. The others are to pray five times a
+               day, fast during Ramadan, and be charitable to the poor.”</p>
+            <p>He stopped there. His eyes filled with tears as he spoke of the Prophet. He was a
+               devout man, and, even with all his impatience, he wanted to live his life in
+               accordance with Muslim law.</p>
+            <p>“What’s the fifth obligation?” the boy asked.</p>
+            <p>“Two days ago, you said that I had never dreamed of travel,” the merchant answered.
+               “The fifth obligation of every Muslim is a pilgrimage. We are obliged, at least once
+               in our lives, to visit the holy city of Mecca.</p>
+            <p>“Mecca is a lot farther away than the Pyramids. When I was young, all I wanted to do
+               was put together enough money to start this shop. I thought that someday I’d be rich,
+               and could go to Mecca. I began to make some money, but I could never bring myself to
+               leave someone in charge of the shop; the crystals are delicate things. At the same
+               time, people were passing my shop all the time, heading for Mecca. Some of them were
+               rich pilgrims, traveling in caravans with servants and camels, but most of the people
+               making the pilgrimage were poorer than I.</p>
+            <p>“All who went there were happy at having done so. They placed the symbols of the
+               pilgrimage on the doors of their houses. One of them, a cobbler who made his living
+               mending boots, said that he had traveled for almost a year through the desert, but
+               that he got more tired when he had to walk through the streets of Tangier buying his
+               leather.”</p>
+            <p>“Well, why don’t you go to Mecca now?” asked the boy.</p>
+            <p>“Because it’s the thought of Mecca that keeps me alive. That’s what helps me face
+               these days that are all the same, these mute crystals on the shelves, and lunch and
+               dinner at that same horrible café. I’m afraid that if my dream is realized, I’ll have
+               no reason to go on living.</p>
+            <p>“You dream about your sheep and the Pyramids, but you’re different from me, because
+               you want to realize your dreams. I just want to dream about Mecca. I’ve already
+               imagined a thousand times crossing the desert, arriving at the Plaza of the Sacred
+               Stone, the seven times I walk around it before allowing myself to touch it. I’ve
+               already imagined the people who would be at my side, and those in front of me, and
+               the conversations and prayers we would share. But I’m afraid that it would all be a
+               disappointment, so I prefer just to dream about it.”</p>
+            <p>That day, the merchant gave the boy permission to build the display. Not everyone can
+               see his dreams come true in the same way.</p>
+         </div>
+
+         <div>
+            <p>TWO MORE MONTHS PASSED, AND THE SHELF BROUGHT many customers into the crystal shop.
+               The boy estimated that, if he worked for six more months, he could return to Spain
+               and buy sixty sheep, and yet another sixty. In less than a year, he would have
+               doubled his flock, and he would be able to do business with the Arabs, because he was
+               now able to speak their strange language. Since that morning in the marketplace, he
+               had never again made use of Urim and Thummim, because Egypt was now just as distant a
+               dream for him as was Mecca for the merchant. Anyway, the boy had become happy in his
+               work, and thought all the time about the day when he would disembark at Tarifa as a
+               winner.</p>
+            <p>“You must always know what it is that you want,” the old king had said. The boy knew,
+               and was now working toward it. Maybe it was his treasure to have wound up in that
+               strange land, met up with a thief, and doubled the size of his flock without spending
+               a cent.</p>
+            <p>He was proud of himself. He had learned some important things, like how to deal in
+               crystal, and about the language without words...and about omens. One afternoon he had
+               seen a man at the top of the hill, complaining that it was impossible to find a
+               decent place to get something to drink after such a climb. The boy, accustomed to
+               recognizing omens, spoke to the merchant.</p>
+            <p>“Let’s sell tea to the people who climb the hill.”</p>
+            <p>“Lots of places sell tea around here,” the merchant said.</p>
+            <p>“But we could sell tea in crystal glasses. The people will enjoy the tea and want to
+               buy the glasses. I have been told that beauty is the great seducer of men.”</p>
+            <p>The merchant didn’t respond, but that afternoon, after saying his prayers and closing
+               the shop, he invited the boy to sit with him and share his hookah, that strange pipe
+               used by the Arabs.</p>
+            <p>“What is it you’re looking for?” asked the old merchant.</p>
+            <p>“I’ve already told you. I need to buy my sheep back, so I have to earn the money to
+               do so.”</p>
+            <p>The merchant put some new coals in the hookah, and inhaled deeply.</p>
+            <p>“I’ve had this shop for thirty years. I know good crystal from bad, and everything
+               else there is to know about crystal. I know its dimensions and how it behaves. If we
+               serve tea in crystal, the shop is going to expand. And then I’ll have to change my
+               way of life.”</p>
+            <p>“Well, isn’t that good?”</p>
+            <p>“I’m already used to the way things are. Before you came, I was thinking about how
+               much time I had wasted in the same place, while my friends had moved on, and either
+               went bankrupt or did better than they had before. It made me very depressed. Now, I
+               can see that it hasn’t been too bad. The shop is exactly the size I always wanted it
+               to be. I don’t want to change anything, because I don’t know how to deal with change.
+               I’m used to the way I am.”</p>
+            <p>The boy didn’t know what to say. The old man continued, “You have been a real
+               blessing to me. Today, I understand something I didn’t see before: every blessing
+               ignored becomes a curse. I don’t want anything else in life. But you are forcing me
+               to look at wealth and at horizons I have never known. Now that I have seen them, and
+               now that I see how immense my possibilities are, I’m going to feel worse than I did
+               before you arrived. Because I know the things I should be able to accomplish, and I
+               don’t want to do so.”</p>
+            <p>It’s good I refrained from saying anything to the baker in Tarifa, thought the boy to
+               himself.</p>
+            <p>They went on smoking the pipe for a while as the sun began to set. They were
+               conversing in Arabic, and the boy was proud of himself for being able to do so. There
+               had been a time when he thought that his sheep could teach him everything he needed
+               to know about the world. But they could never have taught him Arabic.</p>
+            <p>There are probably other things in the world that the sheep can’t teach me, thought
+               the boy as he regarded the old merchant. All they ever do, really, is look for food
+               and water. And maybe it wasn’t that they were teaching me, but that I was learning
+               from them.</p>
+            <p>“Maktub,” the merchant said, finally.</p>
+            <p>“What does that mean?”</p>
+            <p>“You would have to have been born an Arab to understand,” he answered. “But in your
+               language it would be something like ‘It is written.’”</p>
+            <p>And, as he smothered the coals in the hookah, he told the boy that he could begin to
+               sell tea in the crystal glasses. Sometimes, there’s just no way to hold back the
+               river.</p>
+         </div>
+
+         <div>
+            <p>THE MEN CLIMBED THE HILL, AND THEY WERE TIRED when they reached the top. But there
+               they saw a crystal shop that offered refreshing mint tea. They went in to drink the
+               tea, which was served in beautiful crystal glasses.</p>
+            <p>“My wife never thought of this,” said one, and he bought some crystal—he was
+               entertaining guests that night, and the guests would be impressed by the beauty of
+               the glassware. The other man remarked that tea was always more delicious when it was
+               served in crystal, because the aroma was retained. The third said that it was a
+               tradition in the Orient to use crystal glasses for tea because it had magical
+               powers.</p>
+            <p>Before long, the news spread, and a great many people began to climb the hill to see
+               the shop that was doing something new in a trade that was so old. Other shops were
+               opened that served tea in crystal, but they weren’t at the top of a hill, and they
+               had little business.</p>
+            <p>Eventually, the merchant had to hire two more employees. He began to import enormous
+               quantities of tea, along with his crystal, and his shop was sought out by men and
+               women with a thirst for things new.</p>
+            <p>And, in that way, the months passed.</p>
+         </div>
+         <div>
+            <p>THE BOY AWOKE BEFORE DAWN. IT HAD BEEN ELEVEN months and nine days since he had first
+               set foot on the African continent.</p>
+            <p>He dressed in his Arabian clothing of white linen, bought especially for this day. He
+               put his headcloth in place and secured it with a ring made of camel skin. Wearing his
+               new sandals, he descended the stairs silently.</p>
+            <p>The city was still sleeping. He prepared himself a sandwich and drank some hot tea
+               from a crystal glass. Then he sat in the sun-filled doorway, smoking the hookah.</p>
+            <p>He smoked in silence, thinking of nothing, and listening to the sound of the wind
+               that brought the scent of the desert. When he had finished his smoke, he reached into
+               one of his pockets, and sat there for a few moments, regarding what he had
+               withdrawn.</p>
+            <p>It was a bundle of money. Enough to buy himself a hundred and twenty sheep, a return
+               ticket, and a license to import products from Africa into his own country.</p>
+            <p>He waited patiently for the merchant to awaken and open the shop. Then the two went
+               off to have some more tea.</p>
+            <p>“I’m leaving today,” said the boy. “I have the money I need to buy my sheep. And you
+               have the money you need to go to Mecca.”</p>
+            <p>The old man said nothing.</p>
+            <p>“Will you give me your blessing?” asked the boy. “You have helped me.” The man
+               continued to prepare his tea, saying nothing. Then he turned to the boy.</p>
+            <p>“I am proud of you,” he said. “You brought a new feeling into my crystal shop. But
+               you know that I’m not going to go to Mecca. Just as you know that you’re not going to
+               buy your sheep.”</p>
+            <p>“Who told you that?” asked the boy, startled. “Maktub,” said the old crystal
+               merchant. And he gave the boy his blessing.</p>
+         </div>
+         <div>
+            <p>THE BOY WENT TO HIS ROOM AND PACKED HIS BELONGINGS. They filled three sacks. As he
+               was leaving, he saw, in the corner of the room, his old shepherd’s pouch. It was
+               bunched up, and he had hardly thought of it for a long time. As he took his jacket
+               out of the pouch, thinking to give it to someone in the street, the two stones fell
+               to the floor. Urim and Thummim.</p>
+            <p>It made the boy think of the old king, and it startled him to realize how long it had
+               been since he had thought of him. For nearly a year, he had been working incessantly,
+               thinking only of putting aside enough money so that he could return to Spain with
+               pride.</p>
+            <p>“Never stop dreaming,” the old king had said. “Follow the omens.”</p>
+            <p>The boy picked up Urim and Thummim, and, once again, had the strange sensation that
+               the old king was nearby. He had worked hard for a year, and the omens were that it
+               was time to go.</p>
+            <p>I’m going to go back to doing just what I did before, the boy thought. Even though
+               the sheep didn’t teach me to speak Arabic.</p>
+            <p>But the sheep had taught him something even more important: that there was a language
+               in the world that everyone understood, a language the boy had used throughout the
+               time that he was trying to improve things at the shop. It was the language of
+               enthusiasm, of things accomplished with love and purpose, and as part of a search for
+               something believed in and desired. Tangier was no longer a strange city, and he felt
+               that, just as he had conquered this place, he could conquer the world.</p>
+            <p>“When you want something, all the universe conspires to help you achieve it,” the old
+               king had said.</p>
+            <p>But the old king hadn’t said anything about being robbed, or about endless deserts,
+               or about people who know what their dreams are but don’t want to realize them. The
+               old king hadn’t told him that the Pyramids were just a pile of stones, or that anyone
+               could build one in his backyard. And he had forgotten to mention that, when you have
+               enough money to buy a flock larger than the one you had before, you should buy
+               it.</p>
+            <p>The boy picked up his pouch and put it with his other things. He went down the stairs
+               and found the merchant waiting on a foreign couple, while two other customers walked
+               about the shop, drinking tea from crystal glasses. It was more activity than usual
+               for this time of the morning. From where he stood, he saw for the first time that the
+               old merchant’s hair was very much like the hair of the old king. He remembered the
+               smile of the candy seller, on his first day in Tangier, when he had nothing to eat
+               and nowhere to go—that smile had also been like the old king’s smile.</p>
+            <p>It’s almost as if he had been here and left his mark, he thought. And yet, none of
+               these people has ever met the old king. On the other hand, he said that he always
+               appeared to help those who are trying to realize their Personal Legend.</p>
+            <p>He left without saying good-bye to the crystal merchant. He didn’t want to cry with
+               the other people there. He was going to miss the place and all the good things he had
+               learned. He was more confident in himself, though, and felt as though he could
+               conquer the world.</p>
+            <p>“But I’m going back to the fields that I know, to take care of my flock again.” He
+               said that to himself with certainty, but he was no longer happy with his decision. He
+               had worked for an entire year to make a dream come true, and that dream, minute by
+               minute, was becoming less important. Maybe because that wasn’t really his dream.</p>
+            <p>Who knows...maybe it’s better to be like the crystal merchant: never go to Mecca, and
+               just go through life wanting to do so, he thought, again trying to convince himself.
+               But as he held Urim and Thummim in his hand, they had transmitted to him the strength
+               and will of the old king. By coincidence—or maybe it was an omen, the boy thought—he
+               came to the bar he had entered on his first day there. The thief wasn’t there, and
+               the owner brought him a cup of tea.</p>
+            <p>I can always go back to being a shepherd, the boy thought. I learned how to care for
+               sheep, and I haven’t forgotten how that’s done. But maybe I’ll never have another
+               chance to get to the Pyramids in Egypt. The old man wore a breastplate of gold, and
+               he knew about my past. He really was a king, a wise king. The hills of Andalusia were
+               only two hours away, but there was an entire desert between him and the Pyramids. Yet
+               the boy felt that there was another way to regard his situation: he was actually two
+               hours closer to his treasure...the fact that the two hours had stretched into an
+               entire year didn’t matter. I know why I want to get back to my flock, he thought. I
+               understand sheep; they’re no longer a problem, and they can be good friends. On the
+               other hand, I don’t know if the desert can be a friend, and it’s in the desert that I
+               have to search for my treasure. If I don’t find it, I can always go home. I finally
+               have enough money, and all the time I need. Why not?</p>
+            <p>He suddenly felt tremendously happy. He could always go back to being a shepherd. He
+               could always become a crystal salesman again. Maybe the world had other hidden
+               treasures, but he had a dream, and he had met with a king. That doesn’t happen to
+               just anyone!</p>
+            <p>He was planning as he left the bar. He had remembered that one of the crystal
+               merchant’s suppliers transported his crystal by means of caravans that crossed the
+               desert. He held Urim and Thummim in his hand; because of those two stones, he was
+               once again on the way to his treasure.</p>
+            <p>“I am always nearby, when someone wants to realize their Personal Legend,” the old
+               king had told him.</p>
+            <p>What could it cost to go over to the supplier’s warehouse and find out if the
+               Pyramids were really that far away?</p>
+         </div>
+         <div>
+            <p>THE ENGLISHMAN WAS SITTING ON A BENCH IN A STRUCTURE that smelled of animals, sweat,
+               and dust; it was part warehouse, part corral. I never thought I’d end up in a place
+               like this, he thought, as he leafed through the pages of a chemical journal. Ten
+               years at the university, and here I am in a corral.</p>
+            <p>But he had to move on. He believed in omens. All his life and all his studies were
+               aimed at finding the one true language of the universe. First he had studied
+               Esperanto, then the world’s religions, and now it was alchemy. He knew how to speak
+               Esperanto, he understood all the major religions well, but he wasn’t yet an
+               alchemist. He had unraveled the truths behind important questions, but his studies
+               had taken him to a point beyond which he could not seem to go. He had tried in vain
+               to establish a relationship with an alchemist. But the alchemists were strange
+               people, who thought only about themselves, and almost always refused to help him. Who
+               knows, maybe they had failed to discover the secret of the Master Work—the
+               Philosopher’s Stone—and for this reason kept their knowledge to themselves.</p>
+            <p>He had already spent much of the fortune left to him by his father, fruitlessly
+               seeking the Philosopher’s Stone. He had spent enormous amounts of time at the great
+               libraries of the world, and had purchased all the rarest and most important volumes
+               on alchemy. In one he had read that, many years ago, a famous Arabian alchemist had
+               visited Europe. It was said that he was more than two hundred years old, and that he
+               had discovered the Philosopher’s Stone and the Elixir of Life. The Englishman had
+               been profoundly impressed by the story. But he would never have thought it more than
+               just a myth, had not a friend of his—returning from an archaeological expedition in
+               the desert—told him about an Arab that was possessed of exceptional powers.</p>
+            <p>“He lives at the Al-Fayoum oasis,” his friend had said. “And people say that he is
+               two hundred years old, and is able to transform any metal into gold.”</p>
+            <p>The Englishman could not contain his excitement. He canceled all his commitments and
+               pulled together the most important of his books, and now here he was, sitting inside
+               a dusty, smelly warehouse. Outside, a huge caravan was being prepared for a crossing
+               of the Sahara, and was scheduled to pass through Al- Fayoum.</p>
+            <p>I’m going to find that damned alchemist, the Englishman thought. And the odor of the
+               animals became a bit more tolerable. </p>
+            <p>A young Arab, also loaded down with baggage, entered, and greeted the Englishman.</p>
+            <p>“Where are you bound?” asked the young Arab.</p>
+            <p>“I’m going into the desert,” the man answered, turning back to his reading. He didn’t
+               want any conversation at this point. What he needed to do was review all he had
+               learned over the years, because the alchemist would certainly put him to the
+               test.</p>
+            <p>The young Arab took out a book and began to read. The book was written in Spanish.
+               That’s good, thought the Englishman. He spoke Spanish better than Arabic, and, if
+               this boy was going to Al- Fayoum, there would be someone to talk to when there were
+               no other important things to do.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
