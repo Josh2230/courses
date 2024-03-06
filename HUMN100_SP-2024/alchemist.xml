@@ -1993,14 +1993,11 @@
             <p>The <persName>old man</persName> said nothing. <note type="annotation">This is the second time where the merchant is referred to as the old man. It's important to note that this happens whenever they have a emotional moment.</note></p>
             <p>“Will you give me your blessing?” asked the <persName type="fictional">boy</persName>. “You have helped me.” The <persName>man</persName>
                continued to prepare his tea, saying nothing. Then he turned to the <persName type="fictional">boy</persName>.</p>
-            <p>“I am proud of you,” he said. “You brought a new feeling into my crystal shop. But
-               you know that I’m not going to go to Mecca. Just as you know that you’re not going to
-               buy your sheep.”</p>
-            <p>“Who told you that?” asked the boy, startled. “Maktub,” said the old crystal
-               merchant. And he gave the boy his blessing.</p>
+            <p>“I am proud of you,” he said. “You brought a new feeling into my crystal shop. <span cert="high" evaluate="all" type="Theme" xml:space="default">But you know that I’m not going to go to Mecca. Just as you know that you’re not going to buy your sheep.”</span></p>
+            <p>“Who told you that?” asked the <persName>boy</persName>, startled. “<span cert="high" evaluate="all" type="Theme" xml:space="default">Maktub</span>,” said the <persName type="fictional">old crystal merchant</persName>. And he gave the <persName>boy</persName> his blessing.</p>
          </div>
          <div>
-            <p>THE BOY WENT TO HIS ROOM AND PACKED HIS BELONGINGS. They filled three sacks. As he
+            <p>THE <persName type="fictional">BOY</persName> WENT TO HIS ROOM AND PACKED HIS BELONGINGS. They filled three sacks. As he
                was leaving, he saw, in the corner of the room, his old shepherd’s pouch. It was
                bunched up, and he had hardly thought of it for a long time. As he took his jacket
                out of the pouch, thinking to give it to someone in the street, the two stones fell
