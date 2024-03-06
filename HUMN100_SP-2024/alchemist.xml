@@ -1293,21 +1293,16 @@
             <p>The <persName>merchant</persName> didn’t respond, but that afternoon, after saying his prayers and closing
                the shop, he invited the <persName type="fictional">boy</persName> to sit with him and share his hookah, that strange pipe
                used by the Arabs.</p>
-            <p>“What is it you’re looking for?” asked the old merchant.</p>
-            <p>“I’ve already told you. I need to buy my sheep back, so I have to earn the money to
-               do so.”</p>
-            <p>The merchant put some new coals in the hookah, and inhaled deeply.</p>
-            <p>“I’ve had this shop for thirty years. I know good crystal from bad, and everything
-               else there is to know about crystal. I know its dimensions and how it behaves. If we
-               serve tea in crystal, the shop is going to expand. And then I’ll have to change my
-               way of life.”</p>
+            <p>“What is it you’re looking for?” asked the old <persName>merchant</persName>.</p>
+            <p><span cert="high" evaluate="all" type="Theme" xml:space="default">“I’ve already told you. I need to buy my sheep back, so I have to earn the money to do so.”</span></p>
+            <p>The <persName type="fictional">merchant</persName> put some new coals in the hookah, and inhaled deeply.</p>
+            <p><span cert="high" evaluate="all" type="Theme" xml:space="default">“I’ve had this shop for thirty years. I know good crystal from bad, and everything else there is to know about crystal. I know its dimensions and how it behaves. If we serve tea in crystal, the shop is going to expand. And then I’ll have to change my way of life.”</span></p>
             <p>“Well, isn’t that good?”</p>
             <p>“I’m already used to the way things are. Before you came, I was thinking about how
                much time I had wasted in the same place, while my friends had moved on, and either
                went bankrupt or did better than they had before. It made me very depressed. Now, I
                can see that it hasn’t been too bad. The shop is exactly the size I always wanted it
-               to be. I don’t want to change anything, because I don’t know how to deal with change.
-               I’m used to the way I am.”</p>
+               to be. <span cert="high" evaluate="all" type="Theme" xml:space="default">I don’t want to change anything, because I don’t know how to deal with change. I’m used to the way I am.”</span></p>
             <p>The boy didn’t know what to say. The old man continued, “You have been a real
                blessing to me. Today, I understand something I didn’t see before: every blessing
                ignored becomes a curse. I don’t want anything else in life. But you are forcing me
