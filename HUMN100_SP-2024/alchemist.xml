@@ -1432,6 +1432,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Josh2230/courses/main/HUMN100_SP-2024/alchemist.xml?note_annotation_20240306093455893",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-06T14:34:55.893Z",
+	"dcterms:modified": "2024-03-06T14:34:55.893Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Josh2230",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Joshua Lee"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Josh2230/courses/main/HUMN100_SP-2024/alchemist.xml?note_annotation_20240306093455893#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Josh2230/courses/main/HUMN100_SP-2024/alchemist.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Josh2230/courses/main/HUMN100_SP-2024/alchemist.xml?note_annotation_20240306093455893#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/p[21]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "oa:TextualBody",
+		"dc:format": "text/plain",
+		"rdf:value": "The merchant realized that he can trust the boy to scale his business up. "
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -1553,11 +1632,10 @@
             <p><span cert="high" evaluate="all" type="Theme" xml:space="default">There are probably other things in the world that the sheep can’t teach me, thought the <persName type="fictional">boy</persName> as he regarded the old <persName>merchant</persName>. All they ever do, really, is look for food and water. And maybe it wasn’t that they were teaching me, but that I was learning from them.</span></p>
             <p>“<span cert="high" evaluate="all" type="Theme" xml:space="default">Maktub</span>,” the <persName type="fictional">merchant</persName> said, finally.</p>
             <p>“What does that mean?”</p>
-            <p>“You would have to have been born an Arab to understand,” he answered. “But in your
-               language it would be something like ‘It is written.’”</p>
-            <p>And, as he smothered the coals in the hookah, he told the boy that he could begin to
+            <p>“You would have to have been born an Arab to understand,” he answered. <span cert="high" evaluate="all" type="Theme" xml:space="default">“But in your language it would be something like ‘It is written.’”</span></p>
+            <p>And, as he smothered the coals in the hookah, he told the <persName>boy</persName> that he could begin to
                sell tea in the crystal glasses. Sometimes, there’s just no way to hold back the
-               river.</p>
+               river. <note type="annotation">The merchant realized that he can trust the boy to scale his business up. </note></p>
          </div>
 
          <div>
