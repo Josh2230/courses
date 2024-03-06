@@ -1511,6 +1511,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Josh2230/courses/main/HUMN100_SP-2024/alchemist.xml?note_annotation_20240306093642553",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-06T14:36:42.553Z",
+	"dcterms:modified": "2024-03-06T14:36:42.553Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Josh2230",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Joshua Lee"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Josh2230/courses/main/HUMN100_SP-2024/alchemist.xml?note_annotation_20240306093642553#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Josh2230/courses/main/HUMN100_SP-2024/alchemist.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Josh2230/courses/main/HUMN100_SP-2024/alchemist.xml?note_annotation_20240306093642553#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[3]/p[4]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "oa:TextualBody",
+		"dc:format": "text/plain",
+		"rdf:value": "The merchant's business had become so much more than what he thought it could be. It is not necessarily just because of the boy, but it is more the realization that the merchant is capable of doing so much more than he thought he can. "
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Josh2230/courses/main/HUMN100_SP-2024/alchemist.xml?place_annotation_20240306093706942",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-06T14:37:06.942Z",
+	"dcterms:modified": "2024-03-06T14:37:06.942Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Josh2230",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Joshua Lee"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Josh2230/courses/main/HUMN100_SP-2024/alchemist.xml?place_annotation_20240306093706942#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Josh2230/courses/main/HUMN100_SP-2024/alchemist.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Josh2230/courses/main/HUMN100_SP-2024/alchemist.xml?place_annotation_20240306093706942#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[4]/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q15",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -1652,14 +1810,14 @@
                the shop that was doing something new in a trade that was so old. Other shops were
                opened that served tea in crystal, but they weren’t at the top of a hill, and they
                had little business.</p>
-            <p>Eventually, the merchant had to hire two more employees. He began to import enormous
+            <p>Eventually, the <persName type="fictional">merchant</persName> had to hire two more employees. He began to import enormous
                quantities of tea, along with his crystal, and his shop was sought out by men and
-               women with a thirst for things new.</p>
+               women with a thirst for things new. <note type="annotation">The merchant's business had become so much more than what he thought it could be. It is not necessarily just because of the boy, but it is more the realization that the merchant is capable of doing so much more than he thought he can. </note></p>
             <p>And, in that way, the months passed.</p>
          </div>
          <div>
-            <p>THE BOY AWOKE BEFORE DAWN. IT HAD BEEN ELEVEN months and nine days since he had first
-               set foot on the African continent.</p>
+            <p>THE <persName>BOY</persName> AWOKE BEFORE DAWN. IT HAD BEEN ELEVEN months and nine days since he had first
+               set foot on the <placeName key="Africa" ref="http://www.wikidata.org/entity/Q15">African continent</placeName>.</p>
             <p>He dressed in his Arabian clothing of white linen, bought especially for this day. He
                put his headcloth in place and secured it with a ring made of camel skin. Wearing his
                new sandals, he descended the stairs silently.</p>
