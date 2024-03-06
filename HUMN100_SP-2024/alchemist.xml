@@ -1748,6 +1748,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Josh2230/courses/main/HUMN100_SP-2024/alchemist.xml?note_annotation_20240306093925112",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-06T14:39:25.112Z",
+	"dcterms:modified": "2024-03-06T14:39:25.112Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Josh2230",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Joshua Lee"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Josh2230/courses/main/HUMN100_SP-2024/alchemist.xml?note_annotation_20240306093925112#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Josh2230/courses/main/HUMN100_SP-2024/alchemist.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Josh2230/courses/main/HUMN100_SP-2024/alchemist.xml?note_annotation_20240306093925112#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[4]/p[8]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "oa:TextualBody",
+		"dc:format": "text/plain",
+		"rdf:value": "This is the second time where the merchant is referred to as the old man. It's important to note that this happens whenever they have a emotional moment."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -1911,9 +1990,9 @@
                off to have some more tea.</p>
             <p>“I’m leaving today,” said the <persName type="fictional">boy</persName>. “I have the money I need to buy my sheep. And you
                have the money you need to go to <placeName key="Mecca" ref="http://www.wikidata.org/entity/Q5806">Mecca</placeName>.”</p>
-            <p>The <persName>old man</persName> said nothing.</p>
-            <p>“Will you give me your blessing?” asked the boy. “You have helped me.” The man
-               continued to prepare his tea, saying nothing. Then he turned to the boy.</p>
+            <p>The <persName>old man</persName> said nothing. <note type="annotation">This is the second time where the merchant is referred to as the old man. It's important to note that this happens whenever they have a emotional moment.</note></p>
+            <p>“Will you give me your blessing?” asked the <persName type="fictional">boy</persName>. “You have helped me.” The <persName>man</persName>
+               continued to prepare his tea, saying nothing. Then he turned to the <persName type="fictional">boy</persName>.</p>
             <p>“I am proud of you,” he said. “You brought a new feeling into my crystal shop. But
                you know that I’m not going to go to Mecca. Just as you know that you’re not going to
                buy your sheep.”</p>
