@@ -1985,6 +1985,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Josh2230/courses/main/HUMN100_SP-2024/alchemist.xml?place_annotation_20240307203025584",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-08T01:30:25.584Z",
+	"dcterms:modified": "2024-03-08T01:30:25.584Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Josh2230",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Joshua Lee"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Josh2230/courses/main/HUMN100_SP-2024/alchemist.xml?place_annotation_20240307203025584#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Josh2230/courses/main/HUMN100_SP-2024/alchemist.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Josh2230/courses/main/HUMN100_SP-2024/alchemist.xml?place_annotation_20240307203025584#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[5]/p[13]/span/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q5806",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -2187,14 +2266,14 @@
                smile of the candy seller, on his first day in Tangier, when he had nothing to eat
                and nowhere to go—that smile had also been like the old <persName type="fictional">king’s</persName> smile.</p>
             <p><span cert="high" evaluate="all" xml:space="default" subtype="Reminder" type="Theme">It’s almost as if he had been here and left his mark, he thought. And yet, none of these people has ever met the old <persName>king</persName>. On the other hand, he said that he always appeared to help those who are trying to realize their Personal Legend.</span></p>
-            <p>He left without saying good-bye to the crystal merchant. He didn’t want to cry with
+            <p>He left without saying good-bye to the crystal <persName>merchant</persName>. He didn’t want to cry with
                the other people there. He was going to miss the place and all the good things he had
                learned. He was more confident in himself, though, and felt as though he could
                conquer the world.</p>
             <p><span cert="high" evaluate="all" xml:space="default" subtype="Dream" type="Theme">“But I’m going back to the fields that I know, to take care of my flock again.” He said that to himself with certainty, but he was no longer happy with his decision. He had worked for an entire year to make a dream come true, and that dream, minute by minute, was becoming less important. Maybe because that wasn’t really his dream.</span></p>
-            <p><span cert="high" evaluate="all" xml:space="default" subtype="Potential" type="Theme">Who knows...maybe it’s better to be like the crystal merchant: never go to Mecca, and just go through life wanting to do so, he thought, again trying to convince himself.</span>
+            <p><span cert="high" evaluate="all" xml:space="default" subtype="Potential" type="Theme">Who knows...maybe it’s better to be like the crystal <persName type="fictional">merchant</persName>: never go to <placeName key="Mecca" ref="http://www.wikidata.org/entity/Q5806">Mecca</placeName>, and just go through life wanting to do so, he thought, again trying to convince himself.</span>
                But as he held Urim and Thummim in his hand, they had transmitted to him the strength
-               and will of the old king. By coincidence—or maybe it was an omen, the boy thought—he
+               and will of the old <persName>king</persName>. By coincidence—or maybe it was an omen, the <persName type="fictional">boy</persName> thought—he
                came to the bar he had entered on his first day there. The thief wasn’t there, and
                the owner brought him a cup of tea.</p>
             <p>I can always go back to being a shepherd, the boy thought. I learned how to care for
