@@ -2087,8 +2087,8 @@
                better than ever...as if time had turned back to the old days when the street had
                been one of Tangier’s major attractions.</p>
             <p>“Business has really improved,” he said to the <persName type="fictional">boy</persName>, after the customer had left. “I’m
-               doing much better, <span cert="high" evaluate="all" type="Theme" xml:space="default">and soon you’ll be able to return to your sheep. Why ask more out of life?”</span></p>
-            <p><span cert="high" evaluate="all" type="Theme" xml:space="default">“Because we have to respond to omens,”</span> the <persName type="fictional">boy</persName> said, almost without meaning to; then
+               doing much better, <span cert="high" evaluate="all" xml:space="default" subtype="Complacent" type="Theme">and soon you’ll be able to return to your sheep. Why ask more out of life?”</span></p>
+            <p><span cert="high" evaluate="all" xml:space="default" subtype="Reminder" type="Theme">“Because we have to respond to omens,”</span> the <persName type="fictional">boy</persName> said, almost without meaning to; then
                he regretted what he had said, because the <persName>merchant</persName> had never met the <persName type="fictional">king</persName>.</p>
             <p>“<span cert="high" evaluate="all" type="Theme" xml:space="default">It’s called the principle of favorability, beginner’s luck. Because life wants you to achieve your Personal Legend,</span>” the old <persName>king</persName> had said.</p>
             <p>But the <persName type="fictional">merchant</persName> understood what the <persName>boy</persName> had said. The <persName type="fictional">boy’s</persName> very presence in the
@@ -2287,8 +2287,7 @@
             <p>He was planning as he left the bar. He had remembered that one of the <persName type="fictional">crystal merchant’s</persName> suppliers transported his crystal by means of caravans that crossed the
                desert. He held Urim and Thummim in his hand; because of those two stones, he was
                once again on the way to his treasure.</p>
-            <p>“I am always nearby, when someone wants to realize their Personal Legend,” the old
-               king had told him.</p>
+            <p><span cert="high" evaluate="all" subtype="Reminder" xml:space="default" type="Theme">“I am always nearby, when someone wants to realize their Personal Legend,” the old king had told him.</span></p>
             <p>What could it cost to go over to the supplier’s warehouse and find out if the
                Pyramids were really that far away?</p>
          </div>
